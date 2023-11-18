@@ -258,4 +258,13 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const aboutMe = `Emiel Bloem, a  full-stack software engineer, boasts experience in 
+multiple programming languages, frameworks, as well as proficiency in Kubernetes and 
+Docker. His expertise spans Java, Kotlin, PHP, Python, and JavaScript, enabling him 
+to craft comprehensive solutions across diverse tech stacks. Emiel's adeptness in 
+frameworks like React, Next.js, Spring Boot, and Drupal, combined with his knowledge 
+of Kubernetes and Docker, showcases a versatile skill set in web development and 
+container orchestration, making him a valuable asset in the ever-evolving landscape 
+of software engineering.`;
+
+export { services, technologies, experiences, testimonials, projects, aboutMe };

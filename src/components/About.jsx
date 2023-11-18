@@ -3,7 +3,7 @@ import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { services } from '../constants';
+import { services, aboutMe } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc';
 
@@ -37,16 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leadin-[30px]"
-      >
-      Emiel Bloem, a  full-stack software engineer, boasts experience in 
-      multiple programming languages, frameworks, as well as proficiency in Kubernetes and 
-      Docker. His expertise spans Java, Kotlin, PHP, Python, and JavaScript, enabling him 
-      to craft comprehensive solutions across diverse tech stacks. Emiel's adeptness in 
-      frameworks like React, Next.js, Spring Boot, and Drupal, combined with his knowledge 
-      of Kubernetes and Docker, showcases a versatile skill set in web development and 
-      container orchestration, making him a valuable asset in the ever-evolving landscape 
-      of software engineering.
-      </motion.p>
+      >{aboutMe}</motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
