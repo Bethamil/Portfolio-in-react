@@ -119,9 +119,9 @@ across various tech stacks. Additionally, I am well-versed in Kubernetes and Doc
 contributing to effective web development and container orchestration.
 `;
 
-const techStackIntro =  `I've curated a set of technologies that form the backbone of my web 
+const techStackIntro =  `I have curated a set of technologies that form the backbone of my web 
 development approach. Each element is chosen deliberately to enhance performance, scalability, 
-and user experience. Below, you'll find the list of tools and frameworks I rely on to create 
+and user experience. Below, you'll find the list of languages, tools and frameworks I rely on to create 
 functional and efficient apps.`;
 
 const contactText = `Feel free to connect with me via LinkedIn for any inquiries or professional 
