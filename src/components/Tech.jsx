@@ -16,7 +16,8 @@ const Tech = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leadin-[30px]"
-      >{techStackIntro}</motion.p>
+      >{techStackIntro}
+      </motion.p>
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
         {technologies.map((tech) => (
           <div className="w-28 h-28" key={tech.name}>
