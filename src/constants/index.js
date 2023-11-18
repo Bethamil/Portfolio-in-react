@@ -30,6 +30,7 @@ import {
   kotlin,
   kubernetes,
   springboot,
+  diamond
 
 } from "../assets";
 
@@ -60,7 +61,11 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  }
+  },
+  {
+    title: "Drupal Developer",
+    icon: diamond,
+  },
 ];
 
 const technologies = [
@@ -266,17 +271,23 @@ const projects = [
   },
 ];
 
-const aboutMe = `Emiel, a  full-stack software engineer, boasts experience in 
-multiple programming languages, frameworks, as well as proficiency in Kubernetes and 
-Docker. His expertise spans Java, Kotlin, PHP, Python, and JavaScript, enabling him 
-to craft comprehensive solutions across diverse tech stacks. Emiel's adeptness in 
-frameworks like React, Next.js, Spring Boot, and Drupal, combined with his knowledge 
-of Kubernetes and Docker, showcases a versatile skill set in web development and 
-container orchestration.`;
+const aboutMe = ` I have extensive experience as a full-stack software engineer, 
+proficient in multiple programming languages like Java, Kotlin, PHP, Python, and 
+JavaScript. My expertise includes frameworks such as React, Next.js, Spring Boot, 
+and Drupal. I leverage this diverse skill set to create comprehensive solutions 
+across various tech stacks. Additionally, I am well-versed in Kubernetes and Docker, 
+contributing to effective web development and container orchestration.
+`;
 
 const techStackIntro =  `I've curated a set of technologies that form the backbone of my web 
 development approach. Each element is chosen deliberately to enhance performance, scalability, 
 and user experience. Below, you'll find the list of tools and frameworks I rely on to create 
-functional and efficient websites.`;
+functional and efficient apps.`;
 
-export { services, technologies, experiences, testimonials, projects, aboutMe, techStackIntro };
+const contactText = `Feel free to connect with me via LinkedIn for any inquiries or professional 
+engagements. You can reach out to me by sending a message or connecting directly through 
+my LinkedIn profile. I look forward to engaging with you!`;
+
+const linkedinUrl = `https://www.linkedin.com/in/emiel-bloem-01239261/`;
+
+export { services, technologies, experiences, testimonials, projects, aboutMe, techStackIntro, contactText, linkedinUrl};
