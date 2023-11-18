@@ -23,6 +23,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  drupal,
+  java,
+  php,
+  python,
+  kotlin,
+  kubernetes,
+  springboot,
+
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +39,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "tech",
+    title: "Tech",
   },
   {
     id: "contact",
@@ -69,44 +77,44 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "Java",
+    icon: java
+  },
+  { 
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Kotlin",
+    icon: kotlin,
+  },
+  {
+    name: "spring-boot",
+    icon: springboot,
+  },
+  {
+    name: "Drupal",
+    icon: drupal,
   },
 ];
 
@@ -258,13 +266,17 @@ const projects = [
   },
 ];
 
-const aboutMe = `Emiel Bloem, a  full-stack software engineer, boasts experience in 
+const aboutMe = `Emiel, a  full-stack software engineer, boasts experience in 
 multiple programming languages, frameworks, as well as proficiency in Kubernetes and 
 Docker. His expertise spans Java, Kotlin, PHP, Python, and JavaScript, enabling him 
 to craft comprehensive solutions across diverse tech stacks. Emiel's adeptness in 
 frameworks like React, Next.js, Spring Boot, and Drupal, combined with his knowledge 
 of Kubernetes and Docker, showcases a versatile skill set in web development and 
-container orchestration, making him a valuable asset in the ever-evolving landscape 
-of software engineering.`;
+container orchestration.`;
 
-export { services, technologies, experiences, testimonials, projects, aboutMe };
+const techStackIntro =  `I've curated a set of technologies that form the backbone of my web 
+development approach. Each element is chosen deliberately to enhance performance, scalability, 
+and user experience. Below, you'll find the list of tools and frameworks I rely on to create 
+functional and efficient websites.`;
+
+export { services, technologies, experiences, testimonials, projects, aboutMe, techStackIntro };
