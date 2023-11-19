@@ -57,14 +57,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -73,14 +73,14 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
   {
     name: "Kubernetes",
     icon: kubernetes,
@@ -93,18 +93,18 @@ const technologies = [
     name: "PHP",
     icon: php,
   },
-  {
-    name: "Python",
-    icon: python,
-  },
+  // {
+  //   name: "Python",
+  //   icon: python,
+  // },
   {
     name: "Kotlin",
     icon: kotlin,
   },
-  {
-    name: "spring-boot",
-    icon: springboot,
-  },
+  // {
+  //   name: "spring-boot",
+  //   icon: springboot,
+  // },
   {
     name: "Drupal",
     icon: drupal,
