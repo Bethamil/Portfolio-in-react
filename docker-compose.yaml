@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    container_name: portfolio-emiel
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 8124:8080
+    restart: unless-stopped
+    

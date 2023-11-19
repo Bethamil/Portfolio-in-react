@@ -14,7 +14,7 @@ const App = () => {
         <Tech />
         <div>
           <Contact />
-        </div>s
+        </div>
       </div>
     </BrowserRouter>
   )
