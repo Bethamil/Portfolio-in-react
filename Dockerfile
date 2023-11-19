@@ -5,16 +5,16 @@ FROM node:18-alpine
 WORKDIR /app
 
 # Copy package.json and package-lock.json (or yarn.lock) to the working directory
-COPY ./package*.json .
-COPY ./*.config.js .
-COPY ./index.html .
+COPY package*.json ./
+COPY *.config.js ./
+COPY index.html ./
 
 # Install project dependencies
 RUN npm install
 
 # Copy the entire project directory to the working directory
-COPY ./src/ ./src/
-COPY ./public/ ./public/
+COPY ./src ./src
+COPY ./public ./public
 
 RUN npm run build
 
